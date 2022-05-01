@@ -1,0 +1,15 @@
+@media (max-width: 750px) {
+  .propertycontainer {
+    width: 100%;
+  }
+
+  .menuView {
+    display: none !important;
+  }
+
+  .singleImg {
+    object-fit: cover !important;
+    height: 400px !important;
+    width: 3500px !important;
+  }
+}
