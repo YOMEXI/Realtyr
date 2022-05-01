@@ -12,7 +12,6 @@ import {
 } from "@chakra-ui/react";
 import { MdCancel } from "react-icons/md";
 import { filterData, getFilterValues } from "../utils/filterData";
-import { keys } from "@mui/system";
 
 const SearchFilters = () => {
   const [filters, setFilters] = useState(filterData);
