@@ -44,7 +44,7 @@ export default function Home({ propertiesForSale, propertiesForRent }: any) {
         imgUrl="/img/apartmentRent.jpg"
         buttonText="Explore Rentals"
       />
-      <Flex flexWrap="wrap">
+      <Flex flexWrap="wrap" className="propertybox">
         {propertiesForRent?.hits?.map((property: PropertyType) => (
           <Property property={property} key={property.id} />
         ))}
